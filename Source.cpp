@@ -423,10 +423,6 @@ void pattern()
 
 }
 
-
-
-
-
 int main()
 {
 	srand((unsigned)time(NULL));
@@ -459,22 +455,6 @@ int main()
 		system("color 07");
 	} while (toupper(again) == 'Y');
 		
-		//RPS();
 
-
-
-  /* fstream file;
-	file.open("RankedPlayers.txt", ios::out);
-	if (file.is_open())
-	{
-
-		file << "Abdallah Braik#" << "0#40" << endl;
-		file << "Mohammed Braik#" << "0#44" << endl;
-		file << "Braik AbdellMoneim#" << "0#46" << endl;
-		file << "Abdallah Elganainy#" << "0#50" << endl;
-
-		file.close();
-	}
-*/ 
 	return 0;
 }
